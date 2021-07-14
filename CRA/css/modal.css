@@ -1,0 +1,45 @@
+
+
+.saModalWrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    opacity: 0.7;
+    z-index: 999;
+    display: none;
+}
+
+.saModal {
+    position: fixed;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px none #29327a;
+    box-shadow: 0px 10px 25px 4px rgba(2,2,2,0.50);
+    min-width: 20% !important;
+    max-width: 90% !important;
+    min-height: 100px;
+    z-index: 99999;
+    background-color: rgb(41,50,122);
+    display: none;
+    box-sizing: border-box;
+}
+
+.closebtn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 35px;
+    height: 35px;
+    background-color: rgba( 49, 91, 124, 1.00 );
+    display: none;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    cursor: pointer;
+}
